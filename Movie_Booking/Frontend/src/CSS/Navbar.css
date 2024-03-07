@@ -1,0 +1,18 @@
+
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar.css */
+.c-navcolor {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.c-navlink {
+    color: black;
+}
+
+.c-navlink:hover {
+    color: darkviolet;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Sansita:ital@1&display=swap');
+
+/* Apply faint black background color to the footer container */
+.c-footerdiv,
+.c-footerdivthird,
+.c-footecopyright {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value (0.8) for opacity */
+    color: white; /* Optionally, change text color for better visibility on a dark background */
+}
+
+/* Apply faint black background color to the footer icons container */
+/* .c-footericon {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value (0.8) for opacity 
+} */
+
+.c-footerdiv {
+    height: 270px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-footerdiv h1, .c-footerdiv h4, .c-footerdiv h4 {
+    margin-bottom: 40px;
+}
+
+.c-footerdiv p {
+    justify-content: center;
+    width: 300px;
+}
+
+.c-footermainclass {
+    margin-top: 10px;
+}
+
+.c-footerdivhappycust img {
+    height: 280px;
+    width: 450px;
+}
+
+.c-footericon {
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.c-footerdivthird {
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-footecopyright {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+}
